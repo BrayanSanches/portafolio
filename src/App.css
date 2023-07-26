@@ -86,15 +86,15 @@ section {
 }
 
 .home {
-    position: relative;
-    height: 100vh;
-    width: 100%;
-    background-image: url(../img/bg.png);
-    background-size: cover;
-    background-position: center;
-    display: flex;
-    align-items: center;
-    justify-content: flex-start;
+  position: relative;
+  min-height: 100vh; /* Cambia height a min-height */
+  width: 100%;
+  background-image: url(/bg.png);
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
 }
 
 .slide {

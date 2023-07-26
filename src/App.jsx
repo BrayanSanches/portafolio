@@ -37,7 +37,7 @@ function Acerca() {
 function Estudios() {
   return <section className="services" id="estudios">
 	<div className="main-text">
-		<h2><span>Mis </span>Estudios</h2>
+		<h2><span>Mis </span>Conocimientos</h2>
 	</div>
 	<div className="services-content">
 		<div className="box">
@@ -102,13 +102,51 @@ function Estudios() {
 function Portafolio() {
   return <section className="portfolio" id="portfolio">
 	<div className="main-text">
-		<h2><span>Mis </span>Proyectos Academicos</h2>
+		<h2><span>Mis </span>Estudios</h2>
 	</div>
 	<div className="portfolio-content">
+		
+		<div className="row">
+			<img src="/vs.png" />
+			<div className="layer">
+			<h4 style={{marginTop:'10px'}}>Semana 1</h4>
+				<h3 style={{marginTop:'10px'}}>Herramienta de desarrollo</h3>
+				<p>Breve introduccion a la IDE Visual Studio Code y a otras herramientas de desarrollo.</p>
+
+			</div>
+		</div>
+		<div className="row">
+			<img src="/htmlcss.png" />
+			<div className="layer">
+			<h4 style={{marginTop:'10px'}}>Semana 2</h4>
+				<h3 style={{marginTop:'10px'}}>Lenguaje Marcado de Hipertexto y Hojas de Estilos</h3>
+				<p>Se hizo una introduccion a HTML y CSS </p>
+
+			</div>
+		</div>
+		<div className="row">
+			<img src="/js.jpg" />
+			<div className="layer">
+			<h4 style={{marginTop:'10px'}}>Semana 3</h4>
+				<h3 style={{marginTop:'10px'}}>Programación Front-End Javascript.</h3>
+				<p>Se realizo pequeñas paginas web utilizando javascript</p>
+
+			</div>
+		</div>
+		<div className="row">
+			<img src="/js.jpg" />
+			<div className="layer">
+			<h4 style={{marginTop:'10px'}}>Semana 4</h4>
+				<h3 style={{marginTop:'10px'}}>Manejo del DOM con Javascript.</h3>
+				<p>Se realizo animaciones en javascript utilizando metodos y propiedades</p>
+
+			</div>
+		</div>
 		<div className="row">
 			<img src="/project1.png" />
 			<div className="layer">
-				<h5>Pagina Demo</h5>
+			<h4 style={{marginTop:'10px'}}>Semana 5</h4>
+				<h3 style={{marginTop:'10px'}}>Pagina Demo</h3>
 				<p>Demo de una pagina para una empresa donde evidencie los servicios que ofrece</p>
 				<a href="https://gaming-2218.github.io/blog_demo/" target="_blank"> <i className='bx bx-link-external'></i></a>
 			</div>
@@ -116,7 +154,8 @@ function Portafolio() {
 		<div className="row">
 			<img src="/project2.png" />
 			<div className="layer">
-				<h5>Animaciones</h5>
+			<h4 style={{marginTop:'10px'}}>Semana 6</h4>
+				<h3 style={{marginTop:'10px'}}>Animaciones</h3>
 				<p>Animacion basica de una esfera con css y JavaScript</p>
 				<a href="https://brayansanches.github.io/tareas/ball/" target="_blank"> <i className='bx bx-link-external'></i></a>
 			</div>
@@ -124,11 +163,69 @@ function Portafolio() {
 		<div className="row">
 			<img src="/project3.png" />
 			<div className="layer">
-				<h5>JSON</h5>
+			<h4 style={{marginTop:'10px'}}>Semana 7</h4>
+				<h3 style={{marginTop:'10px'}}>JSON</h3>
 				<p>Extraccion de datos de un JSON mediante fetch y map </p>
 				<a href="https://brayansanches.github.io/tareas/p-json/" target="_blank"> <i className='bx bx-link-external'></i></a>
 			</div>
 		</div>
+
+		<div className="row">
+			<img src="/react.jpg" />
+			<div className="layer">
+			<h4 style={{marginTop:'10px'}}>Semana 8</h4>
+				<h3 style={{marginTop:'10px'}}>Desarrollo FrontEnd con React.</h3>
+				<p>Se realizo una introduccion a react y a sus diferentes librerias</p>
+
+			</div>
+		</div>
+		<div className="row">
+			<img src="/react.jpg" />
+			<div className="layer">
+			<h4 style={{marginTop:'10px'}}>Semana 9</h4>
+				<h3 style={{marginTop:'10px'}}>Eventos, Condicionales y Bucles con React.</h3>
+				<p>Se realizaron pequeños proyectos donde se utilizaron Eventos,Formularios,Bucles,Etc.</p>
+
+			</div>
+		</div>
+		<div className="row">
+			<img src="/react.jpg" />
+			<div className="layer">
+			<h4 style={{marginTop:'10px'}}>Semana 10</h4>
+				<h3 style={{marginTop:'10px'}}>Routing & consume API.</h3>
+				<p>Se realizaron una introduccios a las API realizando peticiones a Jsons con fetch.</p>
+
+			</div>
+		</div>
+		<div className="row">
+			<img src="/react.jpg" />
+			<div className="layer">
+			<h4 style={{marginTop:'10px'}}>Semana 11</h4>
+				<h3 style={{marginTop:'10px'}}>Uso de Hooks.</h3>
+				<p>Se realizaron pequeñas aplicaciones utilizando: UseState, UseEffect, UseContext,
+ UseRef, UseReducer, UseCallback, useMemo y Hooks Personalizados.</p>
+
+			</div>
+		</div>
+		<div className="row">
+			<img src="/next.jpg" />
+			<div className="layer">
+			<h4 style={{marginTop:'10px'}}>Semana 12</h4>
+				<h3 style={{marginTop:'10px'}}>Next JS.</h3>
+				<p>Se realizo una introduccion a Next js viendo como se realiza la creación del proyecto, routing en Next, estilos y formularios.</p>
+
+			</div>
+		</div>
+		<div className="row">
+			<img src="/spring.png" />
+			<div className="layer">
+			<h4 style={{marginTop:'10px'}}>Semana 13</h4>
+				<h3 style={{marginTop:'10px'}}>API RESTFUL con SPRINT BOOT.</h3>
+				<p>Se realizo una introduccion sobre API RESTFUL utilizando java y springboot.</p>
+		
+			</div>
+		</div>
+
 
 	</div>
 	<div className="main-text">
@@ -139,7 +236,7 @@ function Portafolio() {
 		<div className="row">
 			<img src="/p4.png" />
 			<div className="layer">
-				<h5>Aplicacion BanckTrax</h5>
+				<h3 style={{marginTop:'10px'}}>Aplicacion BanckTrax</h3>
 				<p>Aplicacion web de gestion de creditos </p>
 				<a href="https://brayansanches.github.io/tareas/p-json/" target="_blank"> <i className='bx bx-link-external'></i></a>
 			</div>
@@ -149,7 +246,7 @@ function Portafolio() {
 }
 
 function Final() {
-  return <footer>&copy; {new Date().getFullYear()} Mi Portafolio</footer>;
+  return <footer style={{textAlign: 'center'}}>&copy; {new Date().getFullYear()} Mi Portafolio</footer>;
 }
 
 function App() {
@@ -166,8 +263,8 @@ function App() {
         <ul className={`navlist ${esNavAbierto ? 'open' : ''}`}>
           <li><NavLink to="/" activeclassname="active">Home</NavLink></li>
           <li><NavLink to="/acerca" activeclassname="active">Acerca de mi</NavLink></li>
-          <li><NavLink to="/estudios" activeclassname="active">Estudios</NavLink></li>
-          <li><NavLink to="/portafolio" activeclassname="active">Proyectos</NavLink></li>
+          <li><NavLink to="/conocimientos" activeclassname="active">Conocimientos</NavLink></li>
+          <li><NavLink to="/portafolio" activeclassname="active">Estudios</NavLink></li>
         </ul>
         <div className="bx bx-menu" id="menu-icon" onClick={alternarNav}></div>
       </header>
@@ -175,7 +272,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Inicio />} />
         <Route path="/acerca" element={<Acerca />} />
-        <Route path="/estudios" element={<Estudios />} />
+        <Route path="/conocimientos" element={<Estudios />} />
         <Route path="/portafolio" element={<Portafolio />} />
       </Routes>
 

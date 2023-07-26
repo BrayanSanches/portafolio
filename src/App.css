@@ -439,7 +439,7 @@ section {
         max-width: 100%;
     }
 }
-@media (max-width: 480px){
+@media (max-width: 800px){
     #menu-icon{
         display: block;
     }
